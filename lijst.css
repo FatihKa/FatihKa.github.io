@@ -1,0 +1,12 @@
+ul.voordelen{
+  list-style: inside triangle;
+  background-color: black;
+  color: black;
+  border: 6px outset silver;
+}
+
+ul.voordelen li{
+  border: 6px outset silver;
+  font-weight: bold;
+  color: white;
+}
