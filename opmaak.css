@@ -32,7 +32,7 @@ p{
   font-size: 15px;
 }
 a{
-  margin: 2px;
+  margin: 5px;
   color: white;
   text-decoration: none;
   color: grey;
@@ -47,16 +47,14 @@ iframe {
 }
 
 a:link, a:visited {
-    background-color: grey;
+    background-color: #f44336;
     color: white;
-    padding: 10px 19px;
+    padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
 }
 
-
 a:hover, a:active {
-    background-color: dimgrey;
-    color: silver;
+    background-color: red;
 }
