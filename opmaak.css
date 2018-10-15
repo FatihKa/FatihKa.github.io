@@ -22,13 +22,20 @@ h1{
 
 h2{
   color: #555555;
-   font-variant: small-caps;
+  font-variant: small-caps;
   text-align:left;
   font-family: Georgia, "Times New Roman" , Times, serif;
   word-spacing: 3px;
   letter-spacing: 1px;
 }
-
+h3{
+  color: #555555;
+  font-variant: small-caps;
+  text-align:left;
+  font-family: Georgia, "Times New Roman" , Times, serif;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
 p{
   text-align:center;
   font-size: 15px;
