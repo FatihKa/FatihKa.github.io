@@ -1,9 +1,8 @@
 body {
-  background-color: black ;
   font-family: Verdana, Geneva;
-  background-image:url("http://www.robertafish.com/wp-content/uploads/2013/05/mountains-1920x108052.jpg");
-  background-size: 100%;
-  color: #F8F8F8;
+  background-image:url("https://wallpapertag.com/wallpaper/full/e/5/d/807160-wallpaper-1680x1050-nature-1920x1080-for-samsung-galaxy.jpg");
+  background-size: 115%;
+  color: black;
 }
 header {
   height: 150px;
@@ -13,7 +12,7 @@ article {
   margin-left: 60%;
 }
 h1{
-  color: #555555;
+  color: black;
   font-style: italic;
   text-align:center;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -21,7 +20,7 @@ h1{
 }
 
 h2{
-  color: #555555;
+  color: black;
   font-variant: small-caps;
   text-align:left;
   font-family: Georgia, "Times New Roman" , Times, serif;
@@ -29,7 +28,7 @@ h2{
   letter-spacing: 1px;
 }
 h3{
-  color: #555555;
+  color: black;
   font-variant: small-caps;
   text-align:left;
   font-family: Georgia, "Times New Roman" , Times, serif;
