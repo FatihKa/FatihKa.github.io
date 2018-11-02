@@ -1,7 +1,7 @@
 body {
   font-family: Verdana, Geneva;
-  background-image:url("https://wallpapertag.com/wallpaper/full/e/5/d/807160-wallpaper-1680x1050-nature-1920x1080-for-samsung-galaxy.jpg");
-  background-size: 115%;
+  background-image:url("https://vignette.wikia.nocookie.net/masseffect/images/c/cf/Andromeda_galaxy_briefing_1_shot.png/revision/latest?cb=20170304124206");
+  background-size: 100%;
   color: black;
 }
 header {
@@ -12,7 +12,7 @@ article {
   margin-left: 60%;
 }
 h1{
-  color: black;
+  color: rgb(39, 116, 85);
   font-style: italic;
   text-align:center;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -20,7 +20,7 @@ h1{
 }
 
 h2{
-  color: black;
+  color: red;
   font-variant: small-caps;
   text-align:left;
   font-family: Georgia, "Times New Roman" , Times, serif;
@@ -28,7 +28,7 @@ h2{
   letter-spacing: 1px;
 }
 h3{
-  color: black;
+  color: red;
   font-variant: small-caps;
   text-align:left;
   font-family: Georgia, "Times New Roman" , Times, serif;
@@ -36,6 +36,12 @@ h3{
   letter-spacing: 1px;
 }
 p{
+  color: rgb(255, 255, 0);
+  text-align:center;
+  font-size: 15px;
+}
+p1{
+  color: rgb(0, 0, 0);
   text-align:center;
   font-size: 15px;
 }
@@ -55,12 +61,13 @@ iframe {
 }
 
 a:link, a:visited {
-    background-color: dimgrey;
-    color: black;
+    background-color: red;
+    color: rgb(255, 255, 0);
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    border: 5px outset red;
 }
 
 a:hover, a:active {
