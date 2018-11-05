@@ -1,26 +1,24 @@
 body {
   font-family: Verdana, Geneva;
-  background-image:url("https://vignette.wikia.nocookie.net/masseffect/images/c/cf/Andromeda_galaxy_briefing_1_shot.png/revision/latest?cb=20170304124206");
-  background-size: 100%;
   color: black;
+  background-color: #364958;
 }
 header {
   height: 150px;
 }
 article {
-  border: 10px outset;
+
   margin-left: 60%;
 }
 h1{
-  color: rgb(39, 116, 85);
+  color: #3A7CA5;
   font-style: italic;
   text-align:center;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 75px
+  font-size: 75px;
 }
 
 h2{
-  color: red;
   font-variant: small-caps;
   text-align:left;
   font-family: Georgia, "Times New Roman" , Times, serif;
@@ -28,7 +26,6 @@ h2{
   letter-spacing: 1px;
 }
 h3{
-  color: red;
   font-variant: small-caps;
   text-align:left;
   font-family: Georgia, "Times New Roman" , Times, serif;
@@ -36,7 +33,6 @@ h3{
   letter-spacing: 1px;
 }
 p{
-  color: rgb(255, 255, 0);
   text-align:center;
   font-size: 15px;
 }
@@ -57,19 +53,50 @@ img{
 }
 
 iframe {
-  border: 8px outset grey;
+  border: 10px outset dimgrey;
 }
 
 a:link, a:visited {
-    background-color: red;
-    color: rgb(255, 255, 0);
+    color: #1B98E0;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border: 5px outset red;
 }
 
 a:hover, a:active {
-    background-color: silver;
+    background-color: #77A6B6;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #006494;
+  width: 100%;
+}
+
+nav ul {
+    background-color: black;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+    margin-right: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #77A6B6;
+;
 }
