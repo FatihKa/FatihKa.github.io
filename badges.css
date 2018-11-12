@@ -54,6 +54,7 @@ img{
 
 iframe {
   border: 10px outset dimgrey;
+  margin-left: 690px;
 }
 
 a:link, a:visited {
