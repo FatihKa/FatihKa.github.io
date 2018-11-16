@@ -12,7 +12,6 @@ article {
 }
 h1{
   color: #3A7CA5;
-  font-style: italic;
   text-align:center;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 50px;
@@ -50,11 +49,11 @@ a{
 }
 
 img{
-  border: 8px outset grey;
+  border: 8px outset #2274A5;
 }
 
 iframe {
-  border: 10px outset dimgrey;
+  border: 10px outset #2274A5;
 }
 
 a:link, a:visited {

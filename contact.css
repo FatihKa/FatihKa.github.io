@@ -43,7 +43,7 @@ img{
 }
 
 iframe {
-  border: 8px outset grey;
+  border: 8px outset #73D2DE;
 }
 
 a:link, a:visited {
