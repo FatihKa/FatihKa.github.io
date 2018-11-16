@@ -7,8 +7,9 @@ header {
   height: 150px;
 }
 article {
-
+  border: 8px outset grey;
   margin-left: 60%;
+  margin-top: 1%;
 }
 h1{
   color: #3A7CA5;
