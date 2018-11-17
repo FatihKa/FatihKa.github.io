@@ -10,6 +10,13 @@ article {
   color: #2DC7FF;
   margin-left: 60%;
 }
+
+section{
+  border: 10px outset #2274A5;
+  margin-left: 690px;
+  margin-top: 50px;
+}
+
 h1{
   color: #3A7CA5;
   text-align:center;
@@ -49,9 +56,7 @@ img{
 }
 
 iframe {
-  border: 10px outset #2274A5;
-  margin-left: 690px;
-  margin-top: 50px;
+
 }
 
 ul {

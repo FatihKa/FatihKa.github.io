@@ -79,6 +79,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     color: #2DC7FF;
+    font-size: 15px;
 }
 
 li a:hover:not(.active) {
