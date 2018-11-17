@@ -44,7 +44,10 @@ p1{
   text-align:center;
   font-size: 15px;
 }
-
+nav{
+  position: sticky;
+  top: 0;
+}
 img{
   border: 8px outset #2274A5;
 }
@@ -80,4 +83,11 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #150578;
+}
+li a:visited {
+    color: #2DC7FF;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }

@@ -40,7 +40,10 @@ p1{
   text-align:center;
   font-size: 15px;
 }
-
+nav{
+  position: sticky;
+  top: 0;
+}
 img{
   border: 8px outset grey;
 }

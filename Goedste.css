@@ -50,6 +50,10 @@ img{
 iframe {
   border: 10px outset #2274A5;
 }
+nav{
+  position: sticky;
+  top: 0;
+}
 
 ul {
     list-style-type: none;

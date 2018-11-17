@@ -53,6 +53,11 @@ iframe {
   margin-top: 0.5%;
 }
 
+nav{
+  position: sticky;
+  top: 0;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -80,4 +85,12 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #150578;
+}
+
+a:visited {
+    color: #2DC7FF;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
