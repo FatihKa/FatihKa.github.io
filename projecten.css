@@ -84,10 +84,9 @@ li a:hover:not(.active) {
 .active {
     background-color: #150578;
 }
-li a:visited {
-    color: #2DC7FF;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+
+a{
+  color: white;
+  text-decoration: none;
+  color: #150578;
 }
