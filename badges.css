@@ -7,7 +7,7 @@ header {
   height: 150px;
 }
 article {
-
+  color: #2DC7FF;
   margin-left: 60%;
 }
 h1{
@@ -40,12 +40,6 @@ p1{
   text-align:center;
   font-size: 15px;
 }
-a{
-  margin: 5px;
-  color: white;
-  text-decoration: none;
-  color: grey;
-}
 
 img{
   border: 8px outset grey;
@@ -57,33 +51,31 @@ iframe {
   margin-top: 50px;
 }
 
-a:link, a:visited {
-    color: #1B98E0;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #006494;
 }
 
-a:hover, a:active {
-    background-color: #77A6B6;
-}
-
-nav {
-  position: sticky;
-  top: 0;
-  background-color: #006494;
-  width: 100%;
-}
-
-nav ul {
-
+li {
+    float: left;
 }
 
 li a {
-    display: inline-block;
+    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: #2DC7FF;
+}
+
+li a:hover:not(.active) {
+    background-color: #0E0E52;
+}
+
+.active {
+    background-color: #150578;
 }
