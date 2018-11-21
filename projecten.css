@@ -2,6 +2,7 @@ body {
   font-family: Verdana, Geneva;
   color: black;
   background-color: #364958;
+  /* background-color: lightgrey; */
 }
 header {
   height: 150px;
@@ -56,6 +57,7 @@ iframe {
   border: 10px outset #2274A5;
   margin-top: 0.5%;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
