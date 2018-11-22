@@ -15,16 +15,38 @@ section{
   margin-right: 20%;
   margin-top: 1%;
   padding: 10px;
+
 }
+
+.index{
+  border: 7px outset #2274A5;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 1%;
+  padding: 10px;
+  float: left;
+}
+
 article {
   border: 8px outset #2274A5;
-  margin-left: 60%;
+  margin-right: 50%;
   margin-top: 1%;
   color: #2DC7FF;
+  padding: 5px;
 }
+
+.badges{
+  border: 7px outset #2274A5;
+  margin-right: 5%;
+  margin-left: 60%;
+  margin-top: 1%;
+  padding: 8px;
+  float: left;
+}
+
 h1{
   color: #3A7CA5;
-  text-align:center;
+  text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 75px;
 }
@@ -45,12 +67,8 @@ h3{
 }
 p{
   text-align:center;
-  font-size: 15px;
   color: #2DC7FF;
-}
-
-p{
-  color: #2DC7FF;
+  text-align: left;
 }
 
 img{
